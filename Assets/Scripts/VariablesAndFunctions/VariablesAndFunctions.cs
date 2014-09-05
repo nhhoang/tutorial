@@ -2,21 +2,18 @@
 using System.Collections;
 
 public class VariablesAndFunctions : MonoBehaviour {
-	int a = 9;
+	public int value = 9;
 
 	// Use this for initialization
-	void Start () {
-		a = NhanDoi(a) ;
-		Debug.Log (a) ;
+	void Start() {
+		value = Double(value);
+		Debug.Log(value);
 	}
 
-	int NhanDoi (int So)
-	{
-		int kq ;
-    kq = So * 2;
-    return kq;
-	}
+	private int Double (int inputValue){
+		int result ;
+    result = inputValue * 2;
 
-	
-	
+    return result;
+	}
 }
