@@ -10,8 +10,8 @@ public class VariablesAndFunctions : MonoBehaviour {
 		Debug.Log(value);
 	}
 
-	private int Double (int inputValue){
-		int result ;
+	private int Double(int inputValue) {
+		int result;
     result = inputValue * 2;
 
     return result;
