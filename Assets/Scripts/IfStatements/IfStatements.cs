@@ -3,9 +3,9 @@ using System.Collections;
 
 public class IfStatements : MonoBehaviour {
 
-    float coffeeTemperature = 85.0f;
-    float hotLimit = 70.0f;
-    float coldLimit = 40.0f;
+    public float coffeeTemperature = 85.0f;
+    public float hotLimit = 70.0f;
+    public float coldLimit = 40.0f;
     
     void Update() {
         if(Input.GetKeyDown(KeyCode.Space)) {
