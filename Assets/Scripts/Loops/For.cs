@@ -2,14 +2,13 @@
 using System.Collections;
 
 public class For : MonoBehaviour {
-	public enemy = 5;
+	public enemy = 3;
 	void Start() {
-	for (i=0; i<enemy; i++) {
+	for (int i = 0; i<enemy; i++) {
 			Debug.Log("Creat enemy: " + i);
 		}
 	}
 	
-	// Update is called once per frame
 	void Update () {
 	
 	}
