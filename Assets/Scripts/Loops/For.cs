@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class For : MonoBehaviour {
-	public enemy = 3;
+	public int enemy = 3;
 	void Start() {
 	for (int i = 0; i<enemy; i++) {
 			Debug.Log("Creat enemy: " + i);
